@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency convertor</title>
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    <div class="header"><h1>Currency Convertor</h1><br></div>
+    <pre><input type="text" id="input" placeholder="amount in INR" value=0><select id="mode">
+        <option value="currency">Currency Convertor</option>
+        <option value="temperature">Temperature Convertor</option>
+        <option value="basic">Basic Calculator</option>
+    </select></pre>
+    <div class="output" id="output"></div><br> 
+    <div class="currencies" id="currencies"><table>
+        <tr>
+            <td><input type="button" id="yen" value="Yen"></td>
+            <td><input type="button" id="dollar" value="Dollar"></td>
+            <td><input type="button" id="pound" value="Pound"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="won" value="Won"></td>
+            <td><input type="button" id="yuan" value="Yuan"></td>
+            <td><input type="button" id="euro" value="Euro"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="ruble" value="Ruble"></td>
+            <td><input type="button" id="pruppee" value="Pakistani ruppee"></td>
+            <td><input type="button" id="sdollar" value="Singapore Dollar"></td>
+        </tr>
+    </table></div>
+    <script src="currency.js"></script>
+</body>
+</html>
