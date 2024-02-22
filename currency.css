@@ -19,7 +19,7 @@ body{
 .output{
     border: 0.1px solid black;
     padding: 20px;
-    width: 50px;
+    width: 125px;
     background-image: linear-gradient(to bottom,grey,lightgrey,white);
 }
 
